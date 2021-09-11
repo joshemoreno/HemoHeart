@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“HemoHearth”"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/healthcare">
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicado al sur de Cali en el barrio Tequendama, allí nuestros usuarios cuentan con un amplio portafolio de servicios médicos, de apoyo diagnóstico, entre otros. Con un equipo humano de profesionales experimentados para la salud y bienestar de nuestros usuarios afiliados y no afiliados, quienes también podrán acceder a los servicios con tarifas especiales."
+            android:justificationMode="inter_word">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

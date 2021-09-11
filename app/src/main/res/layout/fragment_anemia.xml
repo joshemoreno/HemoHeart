@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="40dp">
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido">
+        </EditText>
+        <EditText
+            android:id="@+id/et_cedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cedula">
+        </EditText>
+
+
+            <EditText
+                android:id="@+id/et_hemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nivel de hemoglobina">
+            </EditText>
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo">
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/et_edad"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:hint="Edad">
+            </EditText>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="30"
+                android:text="En meses"
+                android:textSize="20dp"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hombre"
+                android:layout_marginHorizontal="10dp">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mujer"
+                android:layout_marginHorizontal="10dp">
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"
+                android:text="Consultar"
+                android:id="@+id/btn_search">
+            </Button>
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"
+                android:text="Insertar"
+                android:id="@+id/btn_save">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"
+                android:text="actualizar"
+                android:id="@+id/btn_update">
+            </Button>
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                android:id="@+id/btn_delete">
+            </Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
